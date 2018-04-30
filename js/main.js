@@ -200,6 +200,8 @@ var storyData = {
 //////// Main Script /////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
+
+
 let title = document.querySelector('#story-title');
 title.innerHTML = storyData.title;
 
@@ -227,6 +229,9 @@ function addEventListeners(){
         })
     }
 }
+
+
+
 
 let undo = document.querySelector('#undo');
 undo.addEventListener('click', function(e){

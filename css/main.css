@@ -6,7 +6,8 @@
 }
 button#undo {
     border: none;
-    background: none;
+    color: #e8e8e8;
+    background: #666;
     cursor: pointer;
 }
 button#undo:hover {
@@ -36,15 +37,24 @@ button#undo:hover {
 h1, h2 {
     font-family: Georgia, "Times New Roman", serif;
 }
+
 body {
+    background-image: url("../images/farm.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem auto;
+    padding: 3rem 2rem;
+}
+
+.container {
+    background-color: rgb(232,232,232, 0.8);
     width: 80%;
     margin: 1rem auto;
     padding: 3rem 2rem;
-    background: #fafafa;
     color: #666;
     font-family: Helvetica, Arial, sans-serif;
     border: 4px double #666;
 }
-html {
+/* html {
     background: #e8e8e8 url('../images/vertical-waves.png') repeat;
-}
+} */
